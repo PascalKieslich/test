@@ -1,1 +1,5 @@
+title: New page heading
 theme: jekyll-theme-slate
+description: New page description
+github:
+  repository_url: https://github.com/PascalKieslich/
