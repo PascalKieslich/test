@@ -1,6 +1,6 @@
 # First level headline
 
-This is a test page with a [test file](example/test.xlsx).
+This is a test page with a [test file](example/test.xlsx). And another [test file](example/test.html).
 
 ## Second level headline
 
