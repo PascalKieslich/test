@@ -13,7 +13,7 @@ And more content.
 # Test page counter
 
 <script>
-        const namespace = 'https://pascalkieslich.github.io/test/'; // Replace with your namespace
+        const namespace = 'pascalkieslichtest'; // Replace with your namespace
         const counterName = 'pascaltestcounter'; // Replace with your counter name
         const apiUrl = `https://api.counterapi.dev/v1/${namespace}/${counterName}/up`;
 
