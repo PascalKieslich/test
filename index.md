@@ -10,19 +10,11 @@ This example really needs some structure.
 
 And more content.
 
-# Test page counter
-
 <script>
+        // Count page views without collecting any user information
         const namespace = 'pascalkieslichtest'; // Replace with your namespace
         const counterName = 'pascaltestcounter'; // Replace with your counter name
         const apiUrl = `https://api.counterapi.dev/v1/${namespace}/${counterName}/up`;
-
         // Increment the count
-        fetch(apiUrl)
-            .then(response => response.json())
-            .then(data => {
-                console.log('Page views:', data.count);
-                document.body.insertAdjacentHTML('beforeend', `<p>This page has been viewed ${data.count} times.</p>`);
-            })
-            .catch(error => console.error('Error:', error));
+        fetch(apiUrl).catch(error => console.error('Error:', error));
 </script>
